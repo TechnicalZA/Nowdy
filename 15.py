@@ -798,7 +798,7 @@ def menu():
             plist.append('Password12345')
             plist.append('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln)
         clear()
-        ps_limit = int(input(f'''{R}[{G}+{R}]{G Characters Limit \x1b[1;32m: \x1b[1;32m'''))
+        ps_limit = int(input(f'''{R}[{G}+{R}]{G} PASSWORD LIMIT \x1b[1;32m: \x1b[1;32m'''))
         [][f'''{R}''']['['][f'''{G}''']['1'][f'''{R}'''][']'][f'''{G}'''][' Run file crack '][f'''{G}''']['+'][f'''{R}''']['>'][f'''{G}''']['  \n'][f'''{R}''']['['][f'''{G}''']['2'][f'''{R}'''][']'][f'''{G}'''][' Run radom crack '][f'''{G}''']['+'][f'''{R}''']['>'][f'''{G}''']['  \n'][f'''{R}''']['['][f'''{G}''']['3'][f'''{R}'''][']'][f'''{G}'''][' START FILE DUMP '][f'''{G}''']['+'][f'''{R}''']['>'][f'''{G}'''][' Not available\n'][f'''{R}''']['['][f'''{G}''']['4'][f'''{R}'''][']'][f'''{G}'''][' Contact dev. \n'][f'''{R}''']['['][f'''{G}''']['5']
         ps_limit = 1
         clear()
